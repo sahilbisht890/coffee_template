@@ -1,0 +1,446 @@
+
+@media screen and (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+
+    *{
+        padding : 0;
+        margin: 0;
+    }
+
+
+    .customer_reviews {
+        padding:0 0 ;
+        width: 100%;
+        font-family: "Grand Hotel", cursive;
+        font-size: 4rem;
+        color: white;
+        text-align: center;
+    }
+
+.container5 {
+    width: 100%;
+    padding: 5% 4% 1% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222831;
+    background-image: none;;
+}
+
+    .container4 {
+        width: 100%;
+        padding: 2% 4% ;
+        background-color: #222831;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+           background-image: none;
+    }
+
+    .vpic4
+{
+    box-shadow: 2px 2px 4px white;
+}
+
+
+.voucher_btn {
+    width: 42%;
+    border-radius: 10px;
+    font-weight: 500;
+    background-color: #29a19c;
+    padding: 2% 2%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    color: white;
+
+}
+
+
+.voucher {
+    width: 100%;
+    font-family: "Grand Hotel", cursive;
+    font-size: 3rem;
+    color: white;
+    text-align: center;
+    padding:12% 0 0 0;
+}
+
+.voucher_pic
+{
+ margin: 2% 0;
+
+}
+
+
+.vpic4 {
+    width: 100%;
+    height: 12rem
+}
+
+
+
+
+
+
+
+
+.menu3_2{
+    width: 100%;
+    padding: 2% 4%;
+display: flex;
+flex-direction: column;
+background-image: none;
+align-items: center;
+justify-content: center;
+
+}
+
+
+.cold_coffee_heading3 {
+    width: 100%;
+    font-family: "Grand Hotel", cursive;
+    font-size: 4rem;
+       margin: 0;
+    padding: 0;
+    color: white;
+    text-align: center;
+}
+
+.left3_2
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.cold_coffee_pic {
+    width: 60%;
+    height: 17rem;
+
+}
+
+.cold_coffee3 
+{
+    width: 100%;
+    text-align: center;
+}
+
+.right3_2 {
+    display:block;
+    width: 100%;
+}
+
+.text3_cold_coffe,   .text3_hot_coffe {
+        width: 100%;
+        font-size: 1.1rem;
+        font-family: "Montserrat", sans-serif;
+        letter-spacing: 1px;
+        line-height: 1.3rem;
+        color: white;
+        text-align: justify;
+        padding:3% 0;
+    
+    }
+
+    .left3
+    {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+     .links
+     {
+        display: none;
+     }
+     .navbar
+     {
+        display: flex;
+        justify-content: space-between;
+        padding:2% 6%;
+    
+     }
+
+     .logo
+
+{
+    width: 50%;
+    display: flex;
+      flex-direction: row;
+      justify-content: end;
+}
+
+
+.menu_bar
+{
+    display: block;
+    width: 50%;
+}
+
+
+.threeline
+{
+  height: 10%;
+  width: 20%;
+}
+
+.intro_heading
+{
+    font-size: 4rem;
+}
+
+
+
+.headline
+{
+      font-size: 1rem;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding:0;
+
+
+}
+
+.subtext1
+{
+      width: 68%;
+      text-align: justify;
+      line-height: 1.2rem;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8rem;
+      padding:1rem 0;
+
+
+}
+
+.order_now
+{
+    width: 40%;
+    font-size: 1rem;
+}
+
+.introwave1
+{
+     position: relative;
+      width: 100%;
+      height: 5rem;
+
+
+}
+.intro{
+    width: 100%;
+    background-color: #222831;
+    background-image: url(coffe.png);
+    background-repeat: no-repeat;
+    background-position: top  87% right 0px;
+    background-size: 52% 69%
+
+}
+.midsection1
+{
+    background-image: none;
+}
+
+.info
+{
+    font-size: .5rem
+}
+
+.hot_coffee_heading3 
+{
+    font-size: 3rem;
+}
+.small_images2_1,.small_images2_2{
+    display: none;
+}
+
+.small_images2_1,.small_images2_2,.container2
+{
+    background-image: none;
+
+}
+
+.bottom1
+{
+    display: none;
+}
+
+
+
+.bcoffe2
+{
+    width: 100%;
+    text-align: center;
+    padding:0;
+}
+.heading2
+{
+    width: 100%;
+    font-size: 4rem;
+    padding-bottom: 5%;
+}
+
+
+.container2{
+width: 100%;
+padding:2% 4%;
+background-color: #29a19c;
+background-image: none;
+display: flex;
+flex-direction: column;
+
+}
+
+.sub_container2{
+    width: 100%;
+}
+
+.order2{
+    display: none;
+}
+
+.order2_temp
+{
+    display: block;
+    width: 50%;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #222831;
+    padding: 2% 2%;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+    color: white;
+    
+}
+
+.right2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0;
+    width: 100%;
+}
+
+
+.black_coffee_pic
+{
+    width: 100%;
+    text-align: center;
+}
+
+.main2_pic
+{
+    width: 100%;
+}
+
+
+
+.bcpic {
+    width: 70%;
+    height: 22rem
+
+}
+
+.text2 {
+    width: 100%;
+    text-align: justify;
+        color: white;
+    font-family: "Montserrat", sans-serif;
+    line-height: 1.2rem;
+    letter-spacing: 2px;
+    font-size: 1rem;
+    padding:4% 0;
+ }
+
+ .just_for_space
+ {
+    display: none;
+ }
+
+ .wave3
+ {
+    width: 100%;
+    height: 6rem;
+ }
+ .menu3 {
+    width: 100%;
+    padding: 2% 4%;
+    display: flex;
+    flex-direction:column-reverse;
+    justify-content: center;
+    align-items: center;
+    background-image: none;
+
+ }
+
+.order_now3_temp{
+    display: block;
+    width: 45%;
+    border-radius: 10px;
+    font-weight: 700;
+    background-color: #29a19c;
+    padding: 0.4rem 0.8rem;
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    font-size: 1.6rem;
+
+    color: white;
+ }
+
+
+ .order_now3
+ {
+    display: none;
+ }
+
+
+ .right3 {
+    width: 100%;
+    display: block;
+
+
+}
+.hot_coffee_heading3 {
+    width: 100%;
+    font-family: "Grand Hotel", cursive;
+    font-size: 4rem;
+    margin: 0;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 2% 2%;
+}
+.hot_coffee3
+{
+    width: 100%;
+    text-align: center;
+    display: block;
+}
+
+.hot_coffee_pic
+{
+    width: 60%;
+    height: 17rem;
+}
+
+
+
+
+
+
+}
+

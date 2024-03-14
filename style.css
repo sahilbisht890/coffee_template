@@ -1,0 +1,993 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+::-webkit-scrollbar{
+      display: none;
+}
+
+*
+{
+      margin: 0;
+      padding:0;
+      box-sizing: border-box;
+}
+
+body
+{
+      width: 100%;
+      height: 100%;
+}
+
+.intro
+{
+      width: 100%;
+      background-color: #222831;
+      background-image: url(coffe.png),url('vector_smart_object_doubl_46.png'),url('jug.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: top 52% right 0px,bottom 10% left 10%, bottom 35% left 30%;
+     background-size: 52% 78%,4% 5%,6% 10%;
+    
+}
+
+
+.links ul{
+      display:flex;
+      align-items: center;
+      list-style-type: none;
+      gap:5%;
+      color: white;
+      font-size: 1.2rem;
+      font-weight: 700;
+      flex-wrap: wrap;
+}
+
+li:hover 
+{
+  text-decoration: underline;
+  text-decoration-color: #29a19c;
+  text-decoration-thickness: 2px;
+  
+}
+
+.link8 li:hover{
+      text-decoration: underline;
+      text-decoration-color:#222831;
+      text-decoration-thickness: 2px;  
+}
+
+.links
+{
+      width: 80%;
+}
+
+.navbar
+{
+  width: 100%;
+  display: flex;
+   justify-content: space-between;
+   align-items: center;
+   font-family: "Montserrat", sans-serif;
+   padding:1% 4%;
+   flex-wrap: wrap;
+
+
+}
+
+.midsection1
+{
+      padding:0% 4%;
+      padding-bottom:1%;
+      background-image: url('vector_smart_object_doubl_43.png'),url('vector_smart_object_doubl_31.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: top 9% left 64%, center bottom 32%;
+      background-size: 4% 15%, 4% 13%;
+      
+
+}
+
+.social div:hover{
+      cursor: pointer;
+
+
+}
+
+.order_now,.order2,.order_now3,.voucher_btn:hover{
+      cursor: pointer;
+}
+
+.menu_bar
+{
+      display: none;
+
+}
+
+.logo
+{
+    width: 20%;
+    display: flex;
+      flex-direction: row;
+      justify-content: end;
+}
+
+.logo1
+{
+      width: 2rem;
+      height: 2rem;
+
+}
+
+.logo_name
+{
+      display: flex;
+      align-items: center;
+      font-size: 1.5rem;
+      color: white;
+      font-weight: 700;
+}
+
+
+.content1
+{
+      width: 60%;
+      display: flex;
+      flex-direction:column;
+      color: white;
+      padding-top:1%;
+}
+
+
+
+
+.intro_heading
+{
+      font-family: "Grand Hotel", cursive;
+      font-size: 9rem;
+      padding:1rem 0;
+
+      
+}
+
+.headline
+{
+      font-size: 1.8rem;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      letter-spacing: 2px;
+      padding:0;
+
+
+}
+
+.subtext1
+{
+      width: 68%;
+      text-align: justify;
+      line-height: 1.2rem;
+      font-weight: 400;
+      font-family: "Montserrat", sans-serif;
+      font-size: .8rem;
+      padding:1rem 0;
+
+
+}
+
+.order_now,.order_now3
+{
+      width: 28%;
+      border-radius: 10px;
+      font-weight: 700;
+      background-color: #29a19c;
+      padding: 0.4rem 0.8rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      font-size: 1.6rem;
+
+      color: white;
+
+  
+}
+
+.introwave1
+{
+     position: relative;
+      width: 100%;
+      height: 13.4rem;
+  
+
+
+}
+
+.wave_bottom_1
+{
+      width: 100%;
+      height: 100%;
+  
+}
+
+.just_for_space
+{
+  width: 100%;
+  height: 1rem;
+  background-color: #29a19c;
+
+}
+
+.bottom1
+{    width: 5%;
+      height: 25%;
+      position: relative;
+      bottom: 40%;
+      left: 17%
+}
+
+
+
+/* container2----------- */
+.container2
+{
+      width: 100%;
+      padding-left: 10%;
+      background-color: #29a19c;
+      background-image: url('vector_smart_object_doubl_32.png');
+      background-repeat: no-repeat;
+      background-position: bottom 23% left 14%;
+    background-size: 3% 6%;
+}
+
+.sub_container2
+{
+      display: flex;
+      flex-wrap: wrap;
+}
+
+.bcoffe2
+{
+ width: 30%;
+ color: white;
+ padding-top:5%;
+}
+
+.black_coffee_pic
+{
+      width: 70%;
+      display: flex;
+
+
+}
+
+.heading2
+{
+      width: 100%;
+    font-family: "Grand Hotel", cursive;
+    font-size: 8rem;
+    line-height: 7rem;
+    padding-bottom: 18%
+}
+
+.order2
+{
+  
+      width: 56%;
+      border-radius: 10px;
+      font-weight: 700;
+      background-color: #222831;
+      padding: 0.4rem 0.8rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      font-size: 1.6rem
+}
+
+.order_now3_temp
+{
+      display:none;
+}
+
+.order2_temp
+{
+      display: none;
+}
+.small_images2_1
+{
+      width: 30%;
+      height: 25rem;
+      background-image: url('vector_smart_object_doubl_31.png'),url('jug.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: top 2% right 31%, bottom 10% right 40%;
+    background-size: 20% 14%, 39% 25%
+
+}
+
+.small_images2_2
+{
+      width: 10%;
+      height: 26rem;
+      background-image: url('vector_smart_object_doubl_43.png'),url('vector_smart_object_doubl_40.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: top -3% left, bottom 3% left 46%;
+      background-size: 72% 20%, 59% 15%}
+
+.main2_pic
+{
+      width: 55%;
+      
+}
+
+.bcpic 
+{
+      width: 100%;
+      height: 25rem;
+}
+
+.right2
+{
+      width: 100%;
+      display: flex;
+      justify-content: end;
+      padding-right: 10%;
+}
+
+.text2
+{
+      width: 55%;
+      text-align: right;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      line-height: 2rem;
+      letter-spacing: 2px;
+      font-size: 1.2rem;
+      padding-right: 1%;
+      padding-top:1%;
+}
+
+
+
+/* container3 ........ */
+
+.container3
+{
+      width: 100%;
+      background-color: #222831;
+    
+}
+
+.wave3
+{
+      width: 100%;
+      height: 12rem;
+
+}
+.wave3_img
+{
+      width: 100%;
+      height: 100%;
+}
+
+.menu3
+{
+      width: 100%;
+      padding: 0% 10%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-image: url('c3_cup.png'),url('top_center_c3.png'),url('right_jug_c3.png'),url('c3_top_right.png');
+      background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+      background-position: top 10% left 5%, top 13% left 60%, bottom 2% left 65%, bottom 48% right 4%;
+      background-size: 4% 12%, 3% 6%, 6% 15%, 4% 10%
+
+
+
+}
+
+.left3,.right3,.left3_2,.right3_2
+{
+      width: 50%;
+}
+
+.hot_coffee3,.cold_coffee3
+{
+   width: 80%;
+}
+
+.hot_coffee_pic,.cold_coffee_pic
+{
+width: 100%;
+height: 100%;
+}
+
+
+.text3_hot_coffe
+
+{
+      width: 100%;
+      font-size: 1.1rem;
+ font-family: "Montserrat", sans-serif;
+ letter-spacing: 2px;
+ line-height: 2rem;
+ color: white;
+ padding-top:5%;
+
+
+}
+
+.hot_coffee_heading3
+{
+      padding-right: 2%;
+      width: 60%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 7rem;
+      line-height: 6rem;
+      padding-top: 16%;
+      margin-bottom: 15%;
+      color: white;
+      display: flex;
+      text-align: end;
+}
+
+.right3
+{
+      display: flex;
+      flex-direction: column;
+      align-items: end;
+}
+
+.order_now3
+{
+      width: 35%;
+}
+
+
+.menu3_2
+{
+      width: 100%;
+      padding: 5% 10%;
+display: flex;
+justify-content: space-between;
+background-image: url('c3_2_cup.png'),url('water_melon.png'),url('c3_2_jugg.png'),url('water_melon.png');
+background-repeat: no-repeat,no-repeat,no-repeat,no-repeat;
+background-position: top 16% right 5%, top 23% left 50%, bottom 0% left 13%, top 6% left 20%;
+background-size: 4% 11%, 3% 6%, 6% 12%, 3% 6%
+}
+
+.cold_coffee_heading3
+{
+      width: 60%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 7rem;
+      line-height: 6rem;
+      padding-top: 18%;
+      margin-bottom: 15%;
+      color: white;
+}
+
+.right3_2
+{
+      display: flex;
+      flex-direction: column;
+      align-items:flex-start
+}
+
+.text3_cold_coffe
+{
+      width: 100%;
+      font-size: 1.1rem;
+ font-family: "Montserrat", sans-serif;
+ letter-spacing: 2px;
+ line-height: 2rem;
+ color: white;
+ padding-top:5%;
+text-align: right;
+}
+
+.left3_2{
+display: flex;
+flex-direction: column;
+align-items: end;
+}
+
+/* -----------container4 ------- */
+
+.container4
+{
+      width: 100%;
+      padding: 0% 10% 10% 10%;
+      background-color: #222831;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-image: url('c3_cup.png'),url('right_jug_c3.png'),url('c4_left_top.png');
+      background-repeat: no-repeat,no-repeat,no-repeat;
+      background-position: bottom 39% left 10%, bottom 22% right 8%,top 10% right 9%;
+      background-size: 4% 9%, 6% 11%,3% 7%
+
+
+}
+
+
+.vpic4
+{
+      width: 100%;
+      height: 100%;
+}
+
+.voucher
+{
+      width: 60%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 7rem;
+      line-height: 6rem;
+      color: white;
+      text-align: center;
+      padding-bottom: 2%;
+}
+
+.voucher_btn{
+
+      width: 28%;
+      border-radius: 10px;
+      font-weight: 700;
+      background-color: #29a19c;
+      padding: 0.4rem 0.8rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      font-size: 1.6rem;
+
+      color: white;
+
+}
+
+/*------------------------------- container5------------------------------------ -------
+----------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------
+*/
+.container5
+{
+      width: 100%;
+      padding: 0% 10% ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: #222831;
+      background-image: url('c3_2_jugg.png'),url('c4_watermelon.png'),url('c3_2_cup.png');
+      background-repeat: no-repeat,no-repeat,no-repeat;
+      background-position: bottom 24% left 12%, top 28% center, bottom 23% right 11%;
+      background-size: 6% 13%, 3% 8%, 4% 12%
+
+}
+.customer_reviews
+{
+      width: 100%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 7rem;
+      line-height: 6rem;
+      color: white;
+      text-align: center;
+      padding-bottom: 6%;  
+}
+
+
+.reviews 
+{
+      width: 100%;
+      display: flex;
+      
+      justify-content: space-between;
+      color: white;
+}
+
+
+.card1
+{
+      width: 50%;
+      display: flex;  
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+}
+
+.name{
+
+      width: 100%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 3rem;
+      line-height: 6rem;
+      color: white;
+      text-align: center;
+
+}
+
+
+.rev5
+{
+      width: 100%;
+      font-size: 1rem;
+      line-height: 1rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+     padding: .5rem 2rem;
+
+}
+
+
+.profile_pic{
+      width: 100%;
+      height: 100%;
+
+}
+
+.profile{
+      width: 60%;
+      display: flex;
+      justify-content: center;
+   
+}
+
+/* container6------------------  */
+
+.container6
+{
+      width: 100%;
+      background-color: #222831;
+   
+
+
+}
+
+.waveimg 
+{
+      width: 100%;
+      height: 10rem;
+}
+
+.wavetop6{
+      width: 100%;
+}
+
+.c6 
+{
+      width: 100%;
+      color: white;
+      font-family: "Montserrat", sans-serif;
+      display: flex;
+      background-color: #29a19c;
+      background-image: url('big_left_align_cup.png'),url('big_right_align_watermelon.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: bottom 33% left 26%, bottom 13% right 25%;
+      background-size: 7% 26%, 5% 18%;
+      padding-bottom: 5%
+
+
+
+
+}
+
+.left6
+{
+      background-image: url('vector_smart_object_doubl_39.png');
+      background-repeat: no-repeat;
+      background-position: top 1% left 50%;
+      background-size: 9% 12%
+}
+
+.right6
+{
+      background-image: url('right_jug_c3.png');
+      background-repeat: no-repeat;
+      background-position: top 13% left 19%;
+      background-size: 19% 25%
+}
+
+.left6,.mid6,.right6
+{
+      width: 33.33%;
+}
+
+.open
+{
+
+      width: 100%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 5rem;
+      line-height: 6rem;
+      margin-bottom: 10%;
+}
+
+
+.mid6
+{flex-direction: column;
+      display: flex;
+      
+      justify-content: center;
+      align-items: center;
+}
+
+.open{
+      text-align: center;
+}
+
+
+.day
+{
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 1.5rem;
+      width: 100%;
+      text-align: center;
+
+
+
+}
+
+.time 
+{
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.5rem;
+      width: 100%;
+      text-align: center;
+
+
+}
+
+.timing
+{
+      padding-top: 1rem;
+      width: 100%;
+}
+
+.waveimg_bottom
+{
+      width: 100%;
+      height: 10rem;
+}
+.wavebottom6{
+      width: 100%;
+      height: 90%;
+}
+
+/* container7---------- */
+
+.container7
+{
+      width: 100%;
+      background-color: #222831;
+      color: white;
+
+     
+}
+
+.branches
+{
+      padding:1% 6% 6% 6%;
+      width: 100%;
+      background-color: #222831;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-image: url('right_jug_c3.png'),url('c3_cup.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: left 34% bottom 12%, right 34% bottom 0%;
+      background-size: 5% 14%, 5% 15%
+
+}
+
+.card{
+      width: 30%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+}
+
+.place_name
+{
+      width: 60%;
+      border-radius: 10px;
+      font-weight: 700;
+      background-color: #29a19c;
+        padding: 0.4rem 0.8rem;
+        margin: 2rem 0;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      font-size: 1.6rem;
+}
+
+.about_branch
+{
+      width: 100%;
+      
+      padding: 0.4rem 0.8rem;
+      font-family: "Montserrat", sans-serif;
+      text-align: center;
+      font-size: .8rem;
+}
+
+.place_pic
+{
+      width: 90%;
+      height: 13rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
+.place {
+      width: 80%;
+      height: 100%;
+}
+
+.branches_head
+{
+      width: 100%;
+      font-family: "Grand Hotel", cursive;
+      font-size: 5rem;
+      text-align: center;
+      background-image: url('c3_top_right.png'),url('vector_smart_object_doubl_39.png');
+      background-repeat: no-repeat,no-repeat;
+      background-position: left 26% top 0%, right 9% top 51%;
+      background-size: 4% 46%, 4% 46%;
+
+}
+
+
+/* ------footer------ */
+
+.footer8
+{
+      width: 100%;
+      color: white;
+      background-color: #29a19c;
+      font-family: "Montserrat", sans-serif;
+
+}
+
+.wavetop_footer{
+      width: 100%;
+      height: 10rem;
+      background-color: #222831
+}
+
+
+.footer_wave{
+      width: 100%;
+      height: 100%;
+}
+
+.footer_content
+{
+      width: 100%;
+      padding: 0% 6%
+}
+
+.top_footer
+{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start
+}
+
+.logofooter
+{
+      width: 50%;
+      display: flex;
+      
+      justify-content: start;
+        align-items: center;
+}
+
+.img_logo8
+{
+      width: 7%;
+      height: 3.8rem;
+}
+
+.logo8 
+{
+      height: 90%;
+      width: 100%;
+}
+
+.name8{
+      padding:0 .5rem;
+      font-family: "Montserrat", sans-serif;
+      font-size: 1.7rem;
+      font-weight: 700
+
+}
+
+.right_content8
+{
+      width: 50%;
+      display: flex;
+      padding-top:1%;
+      justify-content: space-between;
+      flex-wrap: wrap;
+
+      
+}
+
+.inst
+{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.instruct
+{
+      font-weight: 600;
+      font-size: 1.6rem;
+      padding-bottom:5%
+ 
+}
+
+.info 
+{
+      font-size: 1.3rem;
+      padding: 4% 0;
+      letter-spacing: 2px;
+}
+
+.footer_bottom
+{
+      width: 100%;
+      padding:5rem 0;
+      display: flex;
+
+
+}
+
+.footer_bar
+{
+      width: 50%;
+}
+
+.link8 ul
+{
+      display: flex;
+      justify-content: space-between;
+      list-style: none;
+}
+
+.link8 li{
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
+  gap:4%
+}
+
+.social
+{
+      width: 50%;
+      display: flex;
+      justify-content: end;
+}
+
+.social div 
+{
+      padding-left: 8%;
+}
+
+.contact
+{
+      width: 45%;
+
+}
+
+.extra_add
+{ 
+      width: 11px;
+      height: 16px;
+      border-bottom-left-radius: 100%;
+      position: relative;
+      bottom:40px;
+      right: 96px;
+      background-color: #29a19c;
+
+}
