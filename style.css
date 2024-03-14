@@ -316,6 +316,15 @@ order_now3_temp
       
 }
 
+.overlay{
+      display: none;
+}
+
+.options_bar
+{
+      display: none;
+}
+
 .bcpic 
 {
       width: 100%;

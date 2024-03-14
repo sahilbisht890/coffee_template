@@ -7,12 +7,14 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css" class="stylesheets">
     <link rel="stylesheet" href="media.css">
+    <script class="src" src="script.js"></script>
 </head>
 
 <body>
+    <div class="overlay" id="backdrop" onclick="closebar()"></div>
     <div class="intro">
         <div class="navbar">
-            <div class="menu_bar"><img src="line.jpg" alt="" class="threeline"></div>
+            <div class="menu_bar"  onclick="openbar()">&#9776;</div>
             <div class="links">
                 <ul>
                     <li>Home</li>
@@ -24,6 +26,21 @@
                 </ul>
 
             </div>
+
+            <div class="options_bar" id="menu_bar_">
+                <ul>
+                    <li>  <div onclick="closebar()" id="close_bar">&#10006;</div>
+                    </li>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Menu</li>
+                    <li>Blog</li>
+                    <li>Shop</li>
+                    <li>Contact</li>
+                </ul>
+
+            </div>
+
             <div class="logo">
                 <div class="logo_pic">
                     <img src="logo_pic.png" alt="" class="logo1">
