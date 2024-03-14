@@ -320,7 +320,19 @@ order_now3_temp
       display: none;
 }
 
+#extra{
+right:95.5px;
+}
+
 .options_bar
+{
+      display: none;
+}
+
+
+
+
+.top_pic
 {
       display: none;
 }

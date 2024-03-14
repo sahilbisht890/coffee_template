@@ -9,6 +9,12 @@
     }
 
 
+    .extra_add{
+        position: relative;
+        bottom: 20px;
+        right: 98px;
+    }
+
     #close_bar
     {
         margin-left: 10rem;
@@ -124,7 +130,7 @@
         justify-content: center;
         justify-content: center;
         box-shadow: 2px 2px 8px black;
-        margin: 2% 0;
+        margin: 4% 0;
 
     }
 
@@ -145,13 +151,14 @@
         font-size: 1.6rem
     }
 
-    .extra_add {
-        display: none;
+    #extra
+    {
+        right: 98px;
     }
 
     .place_pic {
         width: 100%;
-        height: 20rem;
+        height: 25rem;
         display: flex;
         align-items: center;
         justify-content: center
@@ -200,6 +207,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin: 3% 0;
     }
 
     .customer_reviews {
@@ -282,7 +290,7 @@
 
     .menu3_2 {
         width: 100%;
-        padding: 2% 4%;
+        padding: 10% 4%;
         display: flex;
         flex-direction: column;
         background-image: none;
@@ -335,7 +343,7 @@
         line-height: 1.3rem;
         color: white;
         text-align: justify;
-        padding: 3% 0;
+        padding: 6% 0;
 
     }
 
@@ -390,13 +398,13 @@
         font-family: "Montserrat", sans-serif;
         font-weight: 700;
         letter-spacing: 2px;
-        padding: 0;
+        padding-top:4%;
 
 
     }
 
     .subtext1 {
-        width: 68%;
+        width: 100%;
         text-align: justify;
         line-height: 1.2rem;
         font-weight: 400;
@@ -423,10 +431,31 @@
     .intro {
         width: 100%;
         background-color: #222831;
-        background-image: url(coffe.png);
-        background-repeat: no-repeat;
-        background-position: top 87% right 0px;
-        background-size: 52% 69%
+        background-image: none;
+    }
+
+    .top_container_pic
+{
+      width: 100%;
+      height: 100%;
+}
+
+    .top_pic
+{
+      display: block;
+      width: 100%;
+      height: 18rem;
+}
+
+
+    .content1 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        padding-top: 1%
     }
 
     .midsection1 {
@@ -479,7 +508,7 @@
     .heading2 {
         width: 100%;
         font-size: 4rem;
-        padding-bottom: 5%;
+        padding-bottom: 0%;
     }
 
 
@@ -603,7 +632,7 @@
     line-height: 1.2rem;
     letter-spacing: 2px;
     font-size: 1rem;
-    padding: 4% 0;
+    padding: 6% 0;
 }
 
 .just_for_space {
