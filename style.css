@@ -320,9 +320,7 @@ order_now3_temp
       display: none;
 }
 
-#extra{
-right:95.5px;
-}
+
 
 .options_bar
 {
@@ -815,6 +813,7 @@ align-items: end;
       font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 1.6rem;
+      position: relative;
 }
 
 .about_branch
@@ -1001,14 +1000,16 @@ align-items: end;
 
 }
 
+
+
 .extra_add
 { 
       width: 11px;
       height: 16px;
       border-bottom-left-radius: 100%;
-      position: relative;
-      bottom:40px;
-      right: 96px;
-      background-color: #29a19c;
+      position: absolute;
+    top:2rem;
+       background-color: #29a19c;
+       left: 0;
 
 }
